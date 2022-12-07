@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TEST</title>
+</head>
+<style>
+
+
+div {
+    margin:auto;
+    border: 2px solid blue;
+    min-width: 400px;
+    text-align: center;
+}
+.dropdown{
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content{
+display: none;
+position: absolute;
+min-width: 100px;
+
+
+
+}
+
+.dropdown:hover .dropdown-content{
+display: block;
+
+}
+
+p.menu {
+color: purple;
+
+}
+
+ul {
+list-style-position: inside;
+
+}
+</style>
+
+<body>
+
+<div class="dropdown">
+    <span>Test Bar</span>
+    <div class="dropdown-content">
+<p class="menu">One</p>
+<p class="menu">Two</p>
+<p class="menu">Three</p>
+    </div>
+</div>
+
+
+<div class="dropdown">
+    <span>Second Test</span>
+    <div class="dropdown-content">
+<ul class="menu">
+<li>Option One</li>
+<li>Option Two</li>
+<li>Option Three</li>
+</ul>
+
+
+    </div>
+
+
+
+
+
+
+</div>
+
+
+
+<p>words</p>
+
+
+
+
+
+
+
+
+</body>
+</html>
